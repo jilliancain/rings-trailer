@@ -5,25 +5,49 @@
 @import "global";
 @import "media-queries";
 
-body
-{background: red;
-}
-.fancy-title
-{
+font-family: 'Orbitron', sans-serif;
 font-family: 'Sansita', sans-serif;
-  font-size: 5em;
-  text-align: center;
-  text-transform: uppercase;
-color: white; }
 
-    
+body {background: grey;}
+
+p {font-family: 'Sansita', sans-serif;
+text-align: center;}
+
+h1
+{font-family: 'Orbitron', sans-serif;
+    color:aliceblue;
+    font-size:5em;
+    text-align: center;
     
 }
 
-p
-{color: red;
-font-family: 'Orbitron', sans-serif;    
+ {
+    font-family: 'Sansita', sans-serif;
+     list-style: none;
 }
 
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+     
+}
+
+/* visited link */
+a:visited {
+    color: whitesmoke;
+    list-style: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: lightgrey;
+}
+
+/* selected link */
+a:active {
+    color: aliceblue;
+}
 
 
