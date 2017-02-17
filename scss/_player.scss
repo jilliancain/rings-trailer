@@ -12,10 +12,10 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 .mejs__container {
     position: relative;
     background: #000;
-    font-family: "Helvetica", Arial, serif;
+    font-family: 'Orbitron', sans-serif;
     text-align: left;
     vertical-align: top;
-    text-indent: 0;
+    text-indent: 2;
     box-sizing: border-box;
 }
 
@@ -39,7 +39,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
     overflow: hidden;
     position: relative;
     margin: 0 auto;
-    background: transparent;
+    background: black;
 }
 
 .mejs__container:focus {
