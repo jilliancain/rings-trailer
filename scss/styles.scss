@@ -1,46 +1,37 @@
-/* Grand Central Station. TOC. Vertex. A Hub. */
-
 @import "grid";
 @import "player";
 @import "global";
 @import "media-queries";
 
-font-family: 'Orbitron', sans-serif;
-font-family: 'Sansita', sans-serif;
-
-body {background: yellow;}
+body {background-image: url("/img/stardust.png")}
 
 p {font-family: 'Sansita', sans-serif;
 text-align: center;}
+
 
 h1
 {font-family: 'Orbitron', sans-serif;
     color:aliceblue;
     font-size:5em;
-    text-align: center;
+    text-align: center;}
+
+
+
+
+
+element.style {font-family: 'Sansita', sans-serif;
+    text-decoration: none;
 }
-
-
-/* unvisited link */
-a:link {
-    color: black;
-     
+    
+    
 }
+a:link {color: black;}
 
-/* visited link */
 a:visited {
-    color: whitesmoke;
-    list-style: none;
-}
+    color: whitesmoke;}
 
-/* mouse over link */
-a:hover {
-    color: lightgrey;
-}
+a:hover {color: lightgrey;}
 
-/* selected link */
-a:active {
-    color: aliceblue;
-}
+a:active {color: aliceblue;}
 
 
